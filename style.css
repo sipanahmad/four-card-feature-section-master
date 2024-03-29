@@ -1,0 +1,131 @@
+:root{
+	--red: hsl(0, 78%, 62%);
+	--cyan: hsl(180, 62%, 55%);
+	--orange: hsl(34, 97%, 64%);
+	--blue: hsl(212, 86%, 64%);
+	--veryDarkBlue: hsl(234, 12%, 34%);
+	--grayishBlue: hsl(229, 6%, 66%);
+	--veryLightGray: hsl(0, 0%, 98%);
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-size:15px;
+}
+
+.container{
+	padding:0 15px;
+	margin: 0 auto;
+	display:grid;
+}
+
+@media (min-width: 768px){
+.container{
+	width:750px;
+}
+}
+@media (min-width: 992px){
+.container{
+	width:970px;
+}
+}
+@media (min-width: 1200px){
+.container{
+	width:1170px;
+}
+}
+
+main{
+	background-color:var(--veryLightGray);
+	padding:50px 0;
+}
+
+h1,h2{
+	color:var(--veryDarkBlue);
+}
+h2{
+	font-size:18px;
+}
+
+p{
+	color:var(--grayishBlue);
+	margin:10px 0 30px;
+	line-height:1.6;
+}
+
+img{
+	display:block;
+	margin-left:auto;
+}
+
+.head{
+	width:50%;
+	margin:50px auto;
+	text-align:center;	
+}
+
+.head span{
+	display:block;
+	font-weight:200;
+	color: var(--grayishBlue);
+}
+.features{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+main .features .col{ 
+	width: calc(94%/3);
+}
+
+main .features .col .card{ 
+	background-color:#fff;
+	border-radius:5px;
+	padding:30px;
+	box-shadow: 0 10px 10px #ddd;
+}
+
+main .features .col .card.cyan{
+	border-top:4px solid var(--cyan);
+}
+main .features .col .card.red{
+	border-top:4px solid var(--red);
+	margin-bottom:30px;
+}
+main .features .col .card.orange{
+	border-top:4px solid var(--orange);
+}
+main .features .col .card.blue{
+	border-top:4px solid var(--blue);
+} 
+
+
+@media (max-width: 768px){
+	main{
+		padding:60px 15px;
+	}
+	h1{
+		font-size:24px;
+	}
+	main .head{
+		width:100%;
+		padding:0;
+		margin-bottom:70px;
+	}
+	main .features{
+		display:block;
+	}
+	main .features .col{ 
+	width: 100%;
+	margin-bottom:30px;
+}
+
+	
+}
