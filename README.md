@@ -32,8 +32,8 @@ The Four card feature section challenge tasks participants with building a user 
 
 ### Links
 
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-solution-using-sass-mUDoJ2_9Jf)
-- Live Site URL: [Live Demo](https://product-preview-card-component-sass.vercel.app/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/the-four-card-feature-section-challenge-psmzd5-nSh)
+- Live Site URL: [Live Demo](https://four-card-feature-section-master-five-sepia.vercel.app/)
 
 ## My process
 
